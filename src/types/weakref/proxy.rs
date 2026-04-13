@@ -286,7 +286,7 @@ mod tests {
 
             #[cfg_attr(
                 PyRustPython,
-                ignore = "RustPython weakref proxy semantics are blocked upstream; see RustPython/RustPython#7589"
+                ignore = "remaining RustPython weakref proxy semantics gap after RustPython#7590"
             )]
             #[test]
             fn test_weakref_proxy_behavior() -> PyResult<()> {
@@ -352,7 +352,7 @@ mod tests {
 
             #[cfg_attr(
                 PyRustPython,
-                ignore = "RustPython weakref proxy semantics are blocked upstream; see RustPython/RustPython#7589"
+                ignore = "remaining RustPython weakref proxy semantics gap after RustPython#7590"
             )]
             #[test]
             fn test_weakref_upgrade_as() -> PyResult<()> {
@@ -391,7 +391,7 @@ mod tests {
 
             #[cfg_attr(
                 PyRustPython,
-                ignore = "RustPython weakref proxy semantics are blocked upstream; see RustPython/RustPython#7589"
+                ignore = "remaining RustPython weakref proxy semantics gap after RustPython#7590"
             )]
             #[test]
             fn test_weakref_upgrade_as_unchecked() -> PyResult<()> {
@@ -424,7 +424,7 @@ mod tests {
 
             #[cfg_attr(
                 PyRustPython,
-                ignore = "RustPython weakref proxy semantics are blocked upstream; see RustPython/RustPython#7589"
+                ignore = "remaining RustPython weakref proxy semantics gap after RustPython#7590"
             )]
             #[test]
             fn test_weakref_upgrade() -> PyResult<()> {
@@ -446,7 +446,7 @@ mod tests {
 
             #[cfg_attr(
                 PyRustPython,
-                ignore = "RustPython weakref proxy semantics are blocked upstream; see RustPython/RustPython#7589"
+                ignore = "remaining RustPython weakref proxy semantics gap after RustPython#7590"
             )]
             #[test]
             fn test_weakref_get_object() -> PyResult<()> {
@@ -505,7 +505,7 @@ mod tests {
 
             #[cfg_attr(
                 PyRustPython,
-                ignore = "RustPython weakref proxy semantics are blocked upstream; see RustPython/RustPython#7589"
+                ignore = "remaining RustPython weakref proxy semantics gap after RustPython#7590"
             )]
             #[test]
             fn test_weakref_proxy_behavior() -> PyResult<()> {
@@ -573,7 +573,7 @@ mod tests {
 
             #[cfg_attr(
                 PyRustPython,
-                ignore = "RustPython weakref proxy semantics are blocked upstream; see RustPython/RustPython#7589"
+                ignore = "remaining RustPython weakref proxy semantics gap after RustPython#7590"
             )]
             #[test]
             fn test_weakref_upgrade_as() -> PyResult<()> {
@@ -608,7 +608,7 @@ mod tests {
 
             #[cfg_attr(
                 PyRustPython,
-                ignore = "RustPython weakref proxy semantics are blocked upstream; see RustPython/RustPython#7589"
+                ignore = "remaining RustPython weakref proxy semantics gap after RustPython#7590"
             )]
             #[test]
             fn test_weakref_upgrade_as_unchecked() -> PyResult<()> {
@@ -637,7 +637,7 @@ mod tests {
 
             #[cfg_attr(
                 PyRustPython,
-                ignore = "RustPython weakref proxy semantics are blocked upstream; see RustPython/RustPython#7589"
+                ignore = "remaining RustPython weakref proxy semantics gap after RustPython#7590"
             )]
             #[test]
             fn test_weakref_upgrade() -> PyResult<()> {
@@ -684,7 +684,7 @@ mod tests {
 
             #[cfg_attr(
                 PyRustPython,
-                ignore = "RustPython weakref proxy semantics are blocked upstream; see RustPython/RustPython#7589"
+                ignore = "remaining RustPython weakref proxy semantics gap after RustPython#7590"
             )]
             #[test]
             fn test_weakref_proxy_behavior() -> PyResult<()> {
@@ -737,7 +737,7 @@ mod tests {
 
             #[cfg_attr(
                 PyRustPython,
-                ignore = "RustPython weakref proxy semantics are blocked upstream; see RustPython/RustPython#7589"
+                ignore = "remaining RustPython weakref proxy semantics gap after RustPython#7590"
             )]
             #[test]
             fn test_weakref_upgrade_as() -> PyResult<()> {
@@ -776,7 +776,7 @@ mod tests {
 
             #[cfg_attr(
                 PyRustPython,
-                ignore = "RustPython weakref proxy semantics are blocked upstream; see RustPython/RustPython#7589"
+                ignore = "remaining RustPython weakref proxy semantics gap after RustPython#7590"
             )]
             #[test]
             fn test_weakref_upgrade_as_unchecked() -> PyResult<()> {
@@ -809,7 +809,7 @@ mod tests {
 
             #[cfg_attr(
                 PyRustPython,
-                ignore = "RustPython weakref proxy semantics are blocked upstream; see RustPython/RustPython#7589"
+                ignore = "remaining RustPython weakref proxy semantics gap after RustPython#7590"
             )]
             #[test]
             fn test_weakref_upgrade() -> PyResult<()> {
@@ -861,7 +861,7 @@ mod tests {
 
             #[cfg_attr(
                 PyRustPython,
-                ignore = "RustPython weakref proxy semantics are blocked upstream; see RustPython/RustPython#7589"
+                ignore = "remaining RustPython weakref proxy semantics gap after RustPython#7590"
             )]
             #[test]
             fn test_weakref_proxy_behavior() -> PyResult<()> {
@@ -917,7 +917,7 @@ mod tests {
 
             #[cfg_attr(
                 PyRustPython,
-                ignore = "RustPython weakref proxy semantics are blocked upstream; see RustPython/RustPython#7589"
+                ignore = "remaining RustPython weakref proxy semantics gap after RustPython#7590"
             )]
             #[test]
             fn test_weakref_upgrade_as() -> PyResult<()> {
@@ -952,7 +952,7 @@ mod tests {
 
             #[cfg_attr(
                 PyRustPython,
-                ignore = "RustPython weakref proxy semantics are blocked upstream; see RustPython/RustPython#7589"
+                ignore = "remaining RustPython weakref proxy semantics gap after RustPython#7590"
             )]
             #[test]
             fn test_weakref_upgrade_as_unchecked() -> PyResult<()> {
@@ -981,7 +981,7 @@ mod tests {
 
             #[cfg_attr(
                 PyRustPython,
-                ignore = "RustPython weakref proxy semantics are blocked upstream; see RustPython/RustPython#7589"
+                ignore = "remaining RustPython weakref proxy semantics gap after RustPython#7590"
             )]
             #[test]
             fn test_weakref_upgrade() -> PyResult<()> {
